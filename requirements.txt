@@ -1,0 +1,4 @@
+bottle
+pygments
+SQLAlchemy
+psycopg2
