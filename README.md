@@ -8,7 +8,7 @@ SQLAlchemy, and Pygments.
 Ubuntu:
 
 ```
-sudo apt-get install postgresql postgresql-server-dev-9.1
+sudo apt-get install postgresql postgresql-server-dev-9.1 python-dev
 
 sudo -u postgres createuser -D -A -P paystedduser # paysteddpass
 sudo -u postgres createdb -O paystedduser paystedd
@@ -22,6 +22,8 @@ python pastedd.py # to run test server at http://localhost:8080/
 
 See Bottle's documentation on
 [Deployment](http://bottlepy.org/docs/stable/deployment.html).
+
+Also, see provided paystedd.wsgi and example_apache.conf .
 
 ## Author
 
